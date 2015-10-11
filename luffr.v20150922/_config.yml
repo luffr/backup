@@ -1,0 +1,92 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# 头像
+avatar: /uploads/avatar.jpg
+
+# 多说
+duoshuo_shortname: aluffr
+
+# 百度统计
+baidu_analytics: 2e59f972b96499af67afcd37a8c82e09
+
+# google分析
+google_analytics: UA-67930212-1
+
+# Google 站长工具验证，请选择 `HTML Meta` 验证方式
+# See: https://www.google.com/webmasters/
+google_site_verification: NaaEl9cq0rIhzjPq30ZGRoMG4yqvegJojVEZeVblVnQ
+
+# Swiftype Search Key
+swiftype_key: v4fsHiE3_oPeCk_e8jAZ
+
+# Site
+title: 川上观
+subtitle:
+description: 川上观，不无知，不无畏
+author: 于川
+language: zh-Hans
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yoursite.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: next
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: https://github.com/luffr/luffr.github.io.git
+  branch: master
